@@ -1,0 +1,11 @@
+var a = 2, b = 1;
+document.write("a = " +a);
+document.write("<br>b = " +b);
+var result = --a ;
+document.write("<br>result of --a = "+result);
+var result = --a - --b ;
+document.write("<br>result of --a - --b = "+result);
+var result = --a - --b + ++b ;
+document.write("<br>result of --a - --b + ++b = "+result);
+var result = --a - --b + ++b + b--;
+document.write("<br>result of --a - --b + ++b + b-- = "+result);

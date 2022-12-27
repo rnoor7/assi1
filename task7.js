@@ -1,0 +1,2 @@
+document.write('“Rules for naming JS variables”');
+document.write("Variable names can only contain number, $ and underscore. For example $my_1stVariable. \nVariables must begin with a Letter , $ or _ . For example $name, _name or name. \nVariable names are case Sensitive. \nVariable names should not be JS Keywords.");
